@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>嘉義市東區興安國民小學114學年度教師成績考核委員會選舉選票</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin: 20px; }
+    table { width: 80%; margin: 0 auto; border-collapse: collapse; }
+    th, td { border: 1px solid #ddd; padding: 12px; }
+    th { background-color: #f4f4f4; }
+    .button {
+      padding: 10px 20px; 
+      background-color: #4CAF50; 
+      color: white; 
+      border: none; 
+      cursor: pointer; 
+      margin: 20px auto; 
+      display: block;
+    }
+    .button:disabled { background-color: #ccc; }
+    /* Bigger checkboxes */
+    input[type="checkbox"] {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
+    /* Left-aligned notes */
+    .note {
+      text-align: left;
+      font-family: '標楷體', 'Times New Roman', serif;
+      margin-left: 20px;
+      font-size: 16px;
+    }
+    .note .highlight {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .note .red-text {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>嘉義市東區興安國民小學114學年度教師成績考核委員會選舉選票</h1>
+
+  <form id="vote-form" action="https://script.google.com/macros/s/AKfycbzK8ID3D2_c1NYAKd3_1vBBnzMwd_Yo3E4LI0P5Dm3hLhPlgfEa8msrYMyQgSUy0L6d/exec">
+    <table>
+      <thead>
+        <tr>
+          <th>職（班）別</th><th>姓名</th><th>圈選欄</th>
+          <th>職（班）別</th><th>姓名</th><th>圈選欄</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 這裡是您提供的所有候選人 -->
+        <tr><td>教務主任</td><td>林招蓉</td><td>當然委員</td></td>>
+            <td>衛生組長</td><td>吳佩蓁</td><td><input type="checkbox" value="吳佩蓁" onclick="updateSelection()"></td></tr>
+        <tr><td>學務主任</td><td>崔倩筠</td><td>當然委員</td></td>>
+            <td>訓育組長</td><td>朱韻儒</td><td><input type="checkbox" value="朱韻儒" onclick="updateSelection()"></td></tr>
+        <tr><td>總務主任</td><td>陳信劭</td><td><input type="checkbox" value="陳信劭" onclick="updateSelection()"></td>
+            <td>體育組長</td><td>鄭仲哲</td><td><input type="checkbox" value="鄭仲哲" onclick="updateSelection()"></td></tr>
+        <tr><td>輔導主任</td><td>陳鵬元</td><td>當然委員</td></td>>
+            <td>生教組長</td><td>賴美樺</td><td><input type="checkbox" value="賴美樺" onclick="updateSelection()"></td></tr>
+        <tr><td>人事室主任</td><td>龔永儀</td><td>當然委員</td></td>>
+            <td>出納組長</td><td>蔡梅燕</td><td><input type="checkbox" value="蔡梅燕" onclick="updateSelection()"></td></tr>
+        <tr><td>教學組長</td><td>陳佩君</td><td><input type="checkbox" value="陳佩君" onclick="updateSelection()"></td>
+            <td>文書組長</td><td>陳怡君</td><td><input type="checkbox" value="陳怡君" onclick="updateSelection()"></td></tr>
+        <tr><td>資訊組長</td><td>楊善涵</td><td><input type="checkbox" value="楊善涵" onclick="updateSelection()"></td>
+            <td>輔導組長</td><td>朱家薇</td><td><input type="checkbox" value="朱家薇" onclick="updateSelection()"></td></tr>
+        <tr><td>設備組長</td><td>楊淑惠</td><td><input type="checkbox" value="楊淑惠" onclick="updateSelection()"></td>
+            <td>資料組長</td><td>陳婉如</td><td><input type="checkbox" value="陳婉如" onclick="updateSelection()"></td></tr>
+        <tr><td>課程註冊組長</td><td>陳瀅如</td><td><input type="checkbox" value="陳瀅如" onclick="updateSelection()"></td>
+            <td>特教教師</td><td>蔡宜真</td><td><input type="checkbox" value="蔡宜真" onclick="updateSelection()"></td></tr>
+        <tr><td>食育組長</td><td>曾志華</td><td><input type="checkbox" value="曾志華" onclick="updateSelection()"></td>
+            <td>特教教師</td><td>吳寶鳳</td><td><input type="checkbox" value="吳寶鳳" onclick="updateSelection()"></td></tr>
+        <tr><td>專任輔導教師</td><td>謝欣紜</td><td><input type="checkbox" value="謝欣紜" onclick="updateSelection()"></td>
+            <td>5年1班</td><td>何宥瑩</td><td><input type="checkbox" value="何宥瑩" onclick="updateSelection()"></td></tr>
+        <tr><td>1年1班</td><td>洪淑慧</td><td><input type="checkbox" value="洪淑慧" onclick="updateSelection()"></td>
+            <td>5年2班</td><td>黃惠娟</td><td><input type="checkbox" value="黃惠娟" onclick="updateSelection()"></td></tr>
+        <tr><td>1年2班</td><td>張宇君</td><td><input type="checkbox" value="張宇君" onclick="updateSelection()"></td>
+            <td>5年3班</td><td>黃于庭</td><td><input type="checkbox" value="黃于庭" onclick="updateSelection()"></td></tr>
+        <tr><td>1年3班</td><td>方子綾</td><td><input type="checkbox" value="方子綾" onclick="updateSelection()"></td>
+            <td>5年4班</td><td>江品葳</td><td><input type="checkbox" value="江品葳" onclick="updateSelection()"></td></tr>
+        <tr><td>1年4班</td><td>林韋珺</td><td><input type="checkbox" value="林韋珺" onclick="updateSelection()"></td>
+            <td>5年5班</td><td>周思嫣</td><td><input type="checkbox" value="周思嫣" onclick="updateSelection()"></td></tr>
+        <tr><td>1年5班</td><td>黃淑萍</td><td><input type="checkbox" value="黃淑萍" onclick="updateSelection()"></td>
+            <td>5年7班</td><td>施嶸旭</td><td><input type="checkbox" value="施嶸旭" onclick="updateSelection()"></td></tr>
+        <tr><td>2年2班</td><td>温宜逢</td><td><input type="checkbox" value="温宜逢" onclick="updateSelection()"></td>
+            <td>6年1班</td><td>李佩珊</td><td><input type="checkbox" value="李佩珊" onclick="updateSelection()"></td></tr>
+        <tr><td>2年4班</td><td>許嘉舫</td><td><input type="checkbox" value="許嘉舫" onclick="updateSelection()"></td>
+            <td>6年2班</td><td>彭志芸</td><td><input type="checkbox" value="彭志芸" onclick="updateSelection()"></td></tr>
+        <tr><td>3年1班</td><td>鄭韻如</td><td><input type="checkbox" value="鄭韻如" onclick="updateSelection()"></td>
+            <td>6年3班</td><td>謝明宏</td><td><input type="checkbox" value="謝明宏" onclick="updateSelection()"></td></tr>
+        <tr><td>3年2班</td><td>李晟均</td><td><input type="checkbox" value="李晟均" onclick="updateSelection()"></td>
+            <td>6年4班</td><td>邱添丁</td><td><input type="checkbox" value="邱添丁" onclick="updateSelection()"></td></tr>
+        <tr><td>3年3班</td><td>李怡寰</td><td><input type="checkbox" value="李怡寰" onclick="updateSelection()"></td>
+            <td>科任</td><td>陳淑華</td><td><input type="checkbox" value="陳淑華" onclick="updateSelection()"></td></tr>
+        <tr><td>3年5班</td><td>黃秀慧</td><td>當然委員(教師會代表)</td></td>
+            <td>科任</td><td>林怡伶</td><td><input type="checkbox" value="林怡伶" onclick="updateSelection()"></td></tr>
+        <tr><td>3年6班</td><td>蘇義發</td><td><input type="checkbox" value="蘇義發" onclick="updateSelection()"></td>
+            <td>科任</td><td>陳怡君</td><td><input type="checkbox" value="陳怡君" onclick="updateSelection()"></td></tr>
+        <tr><td>4年1班</td><td>楊文菁</td><td><input type="checkbox" value="楊文菁" onclick="updateSelection()"></td>
+            <td>科任</td><td>吳尚真</td><td><input type="checkbox" value="吳尚真" onclick="updateSelection()"></td></tr>
+        <tr><td>4年2班</td><td>許嘉娜</td><td><input type="checkbox" value="許嘉娜" onclick="updateSelection()"></td>
+            <td>科任</td><td>王思蘋</td><td><input type="checkbox" value="王思蘋" onclick="updateSelection()"></td></tr>
+        <tr><td>4年3班</td><td>江福生</td><td><input type="checkbox" value="江福生" onclick="updateSelection()"></td>
+            <td>科任</td><td>傅鈺茹</td><td><input type="checkbox" value="傅鈺茹" onclick="updateSelection()"></td></tr>
+        <tr><td>4年5班</td><td>田倚瑄</td><td><input type="checkbox" value="田倚瑄" onclick="updateSelection()"></td>
+            <td>科任</td><td>王妍菲</td><td><input type="checkbox" value="王妍菲" onclick="updateSelection()"></td></tr>
+       
+          
+      </tbody>
+    </table>
+
+    <input type="hidden" name="user" value="匿名" />
+    <input type="hidden" name="candidate" id="candidate-hidden" />
+    <button type="submit" class="button" id="submit-vote" disabled>提交投票</button>
+  </form>
+
+  <!-- 隱藏 iframe 接收 Web App 回傳 -->
+  <iframe name="hiddenFrame" style="display:none;"></iframe>
+
+  <div class="note">
+    <p>備註：</p>
+    <p><span class="red-text">請注意：需勾選滿11人才會顯示提交投票按鈕。</span></p>
+    <p>1.任期：114年9月1日起至115年8月31日止。</p>
+    <p>2.當然委員5人、票選委員8人，共13人。</p>
+    <p>3.<span class="highlight">當然委員</span>：教務主任、學務主任、輔導主任、人事室主任、教師會代表(黃秀慧老師)等5人。</p>
+    <p>4.<span class="red-text">每張選票請圈選11人</span>，依得票數決定票選委員（8人）及候補委員(4名)。</p>
+    <p>5.每滿3人應有1人為未兼行政職務教師(本校至少4人)。</p>
+    <p>6.任一性別委員應占委員總數三分之一以上，委員13人，男性、女性應各4人以上。</p>
+    <p>7.本學年度委員：男性、女性各應4人以上，共計13人。</p>
+  </div>
+
+  <script>
+    let selectedCandidates = [];
+
+    function updateSelection() {
+      selectedCandidates = [];
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+      checkboxes.forEach(cb => selectedCandidates.push(cb.value));
+
+      // 啟用/禁用提交按鈕，選擇任意一位候選人即可啟用
+      const submitButton = document.getElementById("submit-vote");
+      submitButton.disabled = selectedCandidates.length !== 11;
+    }
+
+    // 提交前顯示選擇的候選人
+    document.getElementById("vote-form").onsubmit = function(event) {
+      event.preventDefault();
+
+    　document.getElementById("candidate-hidden").value = selectedCandidates.join(", ");
+
+      alert("投票已提交！您選擇的候選人是：" + selectedCandidates.join(", "));
+      this.submit();
+    };
+  </script>
+</body>
+</html>
